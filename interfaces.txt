@@ -1,0 +1,36 @@
+Interface in Java
+
+points to remember--
+
+An interface in java is a blueprint of a class. It has static constants and abstract methods.
+It is used to achieve abstraction and multiple inheritance in Java.
+a class extends another class, an interface extends another interface but a class implements an interface.
+
+
+Why use Java interface?
+There are mainly three reasons to use interface. They are given below.
+
+It is used to achieve abstraction.
+By interface, we can support the functionality of multiple inheritance.
+It can be used to achieve loose coupling.
+All the methods are public and abstract. And all the fields are public, static, and final.
+
+An interface can have another interface i.e. known as nested interface
+Abstract class and interface both are used to achieve abstraction where we can declare the abstract methods
+
+
+why use interfaces when we have abstract classes?
+
+The reason is, abstract classes may contain non-final variables, whereas variables in interface are final, public and static.
+
+Extending Interfaces
+The extends keyword is used to extend an interface, and the child interface inherits the methods of the parent interface.
+
+Extending Multiple Interfaces
+A Java class can only extend one parent class.
+
+
+
+
+
+

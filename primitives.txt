@@ -1,0 +1,18 @@
+Primitive datatypes are predefined by the language and named by a keyword.
+
+The eight primitive data types in Java are:
+
+boolean, the type whose values are either true or false
+
+char, the character type whose values are 16-bit Unicode characters.
+
+the arithmetic types:
+--the integral types:
+byte->8bit
+short->16bit
+int->32bit
+long->64bit
+
+--the floating-point types:
+float->32bit
+double->64bit

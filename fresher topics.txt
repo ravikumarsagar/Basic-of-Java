@@ -1,0 +1,16 @@
+OOps Concepts
+Interface
+Inheritance
+Class
+Object
+Abstraction
+Encapsulation
+Polymorphism
+Multiple Inheritance Support by Java via Interfaces
+Method vs. Constructors
+Pass by Value vs. Pass by Reference
+Primitives
+Loops
+Decision Makers (if, do/while, while, swicth)
+Exception Handling
+Threads

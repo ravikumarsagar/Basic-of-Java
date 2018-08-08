@@ -1,0 +1,24 @@
+When a class has two or more methods by the same name but different parameters, 
+it is known as method overloading.
+
+In overriding, a method has the same method name, type, number of parameters, etc.
+
+Java has three different types of methods.--
+
+1. Static methods: A static method is a method that can be called and executed without creating an object. 
+In general, static methods are used to create instance methods.
+Static method can be invoked directly via class name i.e.; 
+we don't have to create an object for a class in order to initiate static method.
+
+2.Instance methods: These methods act upon the instance variables of a class. 
+Instance methods are classified into two types--
+
+a.Accessor methods: These are the methods which read the instance variables i.e.; 
+just go access the instance variables data. 
+Generally these methods are named by prefixing with "get".
+
+b. Mutator method: These are the methods, which not only read the instance variables 
+but also modify the data. Generally these methods are named by prefixing with "set".
+
+3. Factory methods: A factory method is a method that returns an object to the class to which it belongs.
+ All factory methods are static methods.

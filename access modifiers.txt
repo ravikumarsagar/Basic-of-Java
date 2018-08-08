@@ -1,0 +1,21 @@
+Access Modifiers in java--
+
+There are two types of modifiers in java
+1.access modifiers
+2.non-access modifiers.
+
+--->The access modifiers in java specifies accessibility (scope) of a data member, method, constructor or class.
+
+There are 4 types of java access modifiers:
+
+1.private-->The private access modifier is accessible only within class.
+
+2.default-->If you don't use any modifier, it is treated as default bydefault. The default modifier is accessible only within package.
+
+3.protected-->The protected access modifier is accessible within package and outside the package but through inheritance only.
+The protected access modifier can be applied on the data member, method and constructor. It can't be applied on the class.
+
+4.public-->The public access modifier is accessible everywhere
+
+--->There are many non-access modifiers such as static, abstract, synchronized, native, volatile, transient etc.
+

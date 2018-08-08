@@ -1,0 +1,94 @@
+-->A variable which is created inside the class but outside the method, is known as instance variable.
+
+-->Local variables - Variables defined inside methods, constructors or blocks are called local variables.
+
+Class variables - Class variables are variables declared within a class, outside any method, with the static keyword.
+-->a method is like function i.e. used to expose behavior of an object.
+
+Advantage of Method
+Code Reusability
+Code Optimization
+
+The new keyword is used to allocate memory at run time.
+
+There are 3 ways to initialize object in java.
+
+-By reference variable
+-By method
+-By constructor
+
+-->>Initializing object simply means storing data into object.
+
+--We can also create multiple objects and store information in it through reference variable.
+
+--->>There are many ways to create an object in java. They are:
+
+By new keyword
+By newInstance() method
+By clone() method
+By deserialization
+By factory method etc.
+
+-->Anonymous simply means nameless. An object which has no reference is known as anonymous object. It can be used at the time of object creation only.
+
+-->>Java inner class or nested class is a class which is declared inside the class or interface.
+--it can access all the members of outer class including private data members and methods.
+
+
+Advantage of java inner classes--
+1.it can access all the members (data members and methods) of outer class including private.
+2.Nested classes are used to develop more readable and maintainable code because it logically group classes and interfaces in one place only
+3.Code Optimization: It requires less code to write.
+
+
+Difference between nested class and inner class in Java
+--Inner class is a part of nested class. Non-static nested classes are known as inner classes.
+
+
+There are two types of nested classes non-static and static nested classes.
+
+--
+Non-static nested class (inner class)
+1.Member inner class
+2.Anonymous inner class
+3.Local inner class
+
+
+~~simple defination~~
+
+Member Inner Class	--A class created within class and outside method.
+Anonymous Inner Class	--A class created for implementing interface or extending class. Its name is decided by the java compiler.
+Local Inner Class	--A class created within/inside method.
+Static Nested Class	--A static class created within/inside a class.
+Nested Interface	--An interface created within class or interface.
+
+Java Member inner class
+A non-static class that is created inside a class but outside a method is called member inner class.
+
+Java static nested class
+-- It cannot access non-static data members and methods. It can be accessed by outer class name.
+--It can access static data members of outer class including private.
+--Static nested class cannot access non-static (instance) data member or method
+
+
+Points to remember for nested interfaces
+There are given some points that should be remembered by the java programmer.
+
+--Nested interface must be public if it is declared inside the interface but it can have any access modifier if declared within the class.
+--Nested interfaces are declared static implicitely.
+
+Abstract class in Java
+A class that is declared with abstract keyword, is known as abstract class in java. It can have abstract and non-abstract methods (method with body).
+
+-->The final keyword in java is used to restrict the user. The java final keyword can be used in many context. Final can be:
+
+variable
+method
+class
+
+Java final class
+If you make any class as final, you cannot extend it.
+
+
+
+

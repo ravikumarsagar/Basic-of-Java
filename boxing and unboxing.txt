@@ -1,0 +1,8 @@
+--Converting primitive datatype to object is called boxing.
+--converting an object into corresponding primitive datatype is known as unboxing.
+This is the new feature of Java5.
+
+Wrapper class in java provides the mechanism to convert primitive into object and object into primitive.
+
+Since J2SE 5.0, autoboxing and unboxing feature converts primitive into object and object into primitive automatically. 
+The automatic conversion of primitive into object is known as autoboxing and vice-versa unboxing.
